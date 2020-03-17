@@ -1,8 +1,8 @@
 {
     "name": "workspace-cacheclean",
-    "displayName": "workspace_cacheclean",
+    "displayName": "Workspace Cache Clean",
     "description": "",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "MamoruDS",
     "author": "MamoruDS",
     "license": "MIT",
@@ -21,6 +21,10 @@
         "onCommand:extension.wsCacheClean"
     ],
     "main": "./out/extension.js",
+    "extensionKind": [
+        "ui",
+        "workspace"
+    ],
     "contributes": {
         "commands": [
             {
