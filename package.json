@@ -3,8 +3,13 @@
     "displayName": "workspace_cacheclean",
     "description": "",
     "version": "0.0.1",
+    "publisher": "MamoruDS",
     "author": "MamoruDS",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MamoruDS/workspace-cacheclean"
+    },
     "homepage": "https://github.com/MamoruDS/workspace-cacheclean",
     "engines": {
         "vscode": "^1.43.0"
